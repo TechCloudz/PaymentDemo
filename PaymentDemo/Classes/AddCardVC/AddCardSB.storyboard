@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Add CardVC-->
+        <scene sceneID="bih-DJ-pcG">
+            <objects>
+                <viewController restorationIdentifier="AddCardVC" storyboardIdentifier="AddCardVC" id="7PY-sc-o02" customClass="AddCardVC" customModule="PaymentDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WK5-u9-gUj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DNC-H4-kow">
+                                <rect key="frame" x="0.0" y="20" width="375" height="64"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cYu-hP-k14">
+                                        <rect key="frame" x="15" y="20" width="24" height="24"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="24" id="czc-0h-9ec"/>
+                                            <constraint firstAttribute="width" constant="24" id="gti-V2-BhJ"/>
+                                        </constraints>
+                                        <state key="normal" image="left-arrow.png"/>
+                                        <connections>
+                                            <action selector="onClickBtn_Back:" destination="7PY-sc-o02" eventType="touchUpInside" id="YwT-c6-Y2a"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add New Card" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NeU-yd-9tk">
+                                        <rect key="frame" x="73" y="23" width="229" height="18"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="18" id="w12-6G-IDP"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="NeU-yd-9tk" secondAttribute="trailing" constant="73" id="2OU-mt-Dza"/>
+                                    <constraint firstItem="NeU-yd-9tk" firstAttribute="leading" secondItem="cYu-hP-k14" secondAttribute="trailing" constant="34" id="dUx-do-006"/>
+                                    <constraint firstItem="cYu-hP-k14" firstAttribute="leading" secondItem="DNC-H4-kow" secondAttribute="leading" constant="15" id="djz-7U-oF7"/>
+                                    <constraint firstItem="cYu-hP-k14" firstAttribute="top" secondItem="DNC-H4-kow" secondAttribute="top" constant="20" id="ejs-pA-SRA"/>
+                                    <constraint firstAttribute="height" constant="64" id="g4E-Zn-JH9"/>
+                                    <constraint firstItem="NeU-yd-9tk" firstAttribute="top" secondItem="DNC-H4-kow" secondAttribute="top" constant="23" id="mVS-hg-caH"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SOJ-Hp-sIm">
+                                <rect key="frame" x="0.0" y="120" width="375" height="547"/>
+                                <color key="backgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="SOJ-Hp-sIm" firstAttribute="trailing" secondItem="SuY-wG-0Cl" secondAttribute="trailing" id="0T9-ar-0Js"/>
+                            <constraint firstItem="SOJ-Hp-sIm" firstAttribute="leading" secondItem="SuY-wG-0Cl" secondAttribute="leading" id="1eo-XW-XYj"/>
+                            <constraint firstItem="DNC-H4-kow" firstAttribute="top" secondItem="SuY-wG-0Cl" secondAttribute="top" id="2MG-DG-cHj"/>
+                            <constraint firstItem="SOJ-Hp-sIm" firstAttribute="bottom" secondItem="SuY-wG-0Cl" secondAttribute="bottom" id="CLM-W1-5XN"/>
+                            <constraint firstItem="DNC-H4-kow" firstAttribute="leading" secondItem="SuY-wG-0Cl" secondAttribute="leading" id="Ce4-8b-OfP"/>
+                            <constraint firstItem="DNC-H4-kow" firstAttribute="trailing" secondItem="SuY-wG-0Cl" secondAttribute="trailing" id="NMd-Uy-oG0"/>
+                            <constraint firstItem="SOJ-Hp-sIm" firstAttribute="top" secondItem="WK5-u9-gUj" secondAttribute="top" constant="120" id="dRI-Ss-dDx"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="SuY-wG-0Cl"/>
+                    </view>
+                    <connections>
+                        <outlet property="contentView" destination="SOJ-Hp-sIm" id="w28-S5-r8c"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5HM-9D-DMu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-111.2" y="106.59670164917542"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="left-arrow.png" width="32" height="32"/>
+    </resources>
+</document>

@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		95AEDB204C9E3E1CA64A5F57 /* Pods_PaymentDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20860B90B7F5E125F5CEDFF6 /* Pods_PaymentDemo.framework */; };
+		CBF7A0FBE81697E463A17798 /* libPods-PaymentDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A2DE9096B9BB49B6E67CC456 /* libPods-PaymentDemoUITests.a */; };
+		E884EDD7A206E0842BDAB61F /* Pods_PaymentDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F32D0149858A23F06DFE7B1 /* Pods_PaymentDemoTests.framework */; };
+		EC1F66651FCA7D860076BD44 /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = EC1F66611FCA7D830076BD44 /* apple.png */; };
+		EC1F66661FCA7D860076BD44 /* visa.png in Resources */ = {isa = PBXBuildFile; fileRef = EC1F66621FCA7D840076BD44 /* visa.png */; };
+		EC1F66671FCA7D860076BD44 /* chase.png in Resources */ = {isa = PBXBuildFile; fileRef = EC1F66631FCA7D850076BD44 /* chase.png */; };
+		EC1F66681FCA7D860076BD44 /* paypal.png in Resources */ = {isa = PBXBuildFile; fileRef = EC1F66641FCA7D850076BD44 /* paypal.png */; };
+		EC1F666A1FCA7FB90076BD44 /* Settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC1F66691FCA7FB80076BD44 /* Settings.plist */; };
+		EC1F666D1FCB36FF0076BD44 /* PayPalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1F666C1FCB36FF0076BD44 /* PayPalVC.swift */; };
+		EC1F666F1FCB37120076BD44 /* PayPalSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC1F666E1FCB37120076BD44 /* PayPalSB.storyboard */; };
+		EC1F66711FCB38B60076BD44 /* Payy.png in Resources */ = {isa = PBXBuildFile; fileRef = EC1F66701FCB38B50076BD44 /* Payy.png */; };
+		EC1F66761FCB40830076BD44 /* VisaCheckOutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1F66741FCB40830076BD44 /* VisaCheckOutVC.swift */; };
+		EC1F66771FCB40830076BD44 /* VisaCheckOutVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC1F66751FCB40830076BD44 /* VisaCheckOutVC.xib */; };
 		EC383EB01FC685190074F5E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC383EAF1FC685190074F5E6 /* AppDelegate.swift */; };
 		EC383EB21FC685190074F5E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC383EB11FC685190074F5E6 /* ViewController.swift */; };
 		EC383EB51FC685190074F5E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC383EB31FC685190074F5E6 /* Main.storyboard */; };
@@ -15,6 +28,32 @@
 		EC383EBD1FC685190074F5E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC383EBB1FC685190074F5E6 /* LaunchScreen.storyboard */; };
 		EC383EC81FC685190074F5E6 /* PaymentDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC383EC71FC685190074F5E6 /* PaymentDemoTests.swift */; };
 		EC383ED31FC685190074F5E6 /* PaymentDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC383ED21FC685190074F5E6 /* PaymentDemoUITests.swift */; };
+		EC383EE51FC685B90074F5E6 /* ProductVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC383EE41FC685B90074F5E6 /* ProductVC.swift */; };
+		EC383EE71FC685C50074F5E6 /* ProductSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC383EE61FC685C50074F5E6 /* ProductSB.storyboard */; };
+		EC383EE91FC685E30074F5E6 /* PaymentOptionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC383EE81FC685E30074F5E6 /* PaymentOptionsVC.swift */; };
+		EC383EEB1FC685EE0074F5E6 /* PaymentOptionsSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC383EEA1FC685EE0074F5E6 /* PaymentOptionsSB.storyboard */; };
+		EC383EED1FC686010074F5E6 /* AddCardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC383EEC1FC686010074F5E6 /* AddCardVC.swift */; };
+		EC383EEF1FC6860D0074F5E6 /* AddCardSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC383EEE1FC6860D0074F5E6 /* AddCardSB.storyboard */; };
+		EC383EF21FC686EF0074F5E6 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC383EF11FC686EE0074F5E6 /* Constant.swift */; };
+		EC4CFAA41FC6DDB4009710D9 /* TabySegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4CFAA31FC6DDB3009710D9 /* TabySegmentedControl.swift */; };
+		EC4CFAA91FC6DE4A009710D9 /* CreditCardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4CFAA81FC6DE4A009710D9 /* CreditCardVC.swift */; };
+		EC4CFAAB1FC6DE5B009710D9 /* GiftCardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4CFAAA1FC6DE5B009710D9 /* GiftCardVC.swift */; };
+		EC4CFAAD1FC6DE69009710D9 /* RewardCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4CFAAC1FC6DE69009710D9 /* RewardCard.swift */; };
+		EC4CFAAF1FC6DE7B009710D9 /* CreditCardSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC4CFAAE1FC6DE7B009710D9 /* CreditCardSB.storyboard */; };
+		EC4CFAB11FC6DE8D009710D9 /* GifCardSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC4CFAB01FC6DE8D009710D9 /* GifCardSB.storyboard */; };
+		EC4CFAB31FC6DE9B009710D9 /* RewardCardSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC4CFAB21FC6DE9B009710D9 /* RewardCardSB.storyboard */; };
+		EC4CFAB51FC6EAB7009710D9 /* segmented_separator_bg.pdf in Resources */ = {isa = PBXBuildFile; fileRef = EC4CFAB41FC6EAB7009710D9 /* segmented_separator_bg.pdf */; };
+		EC4CFAB71FC6EABF009710D9 /* substract.png in Resources */ = {isa = PBXBuildFile; fileRef = EC4CFAB61FC6EABF009710D9 /* substract.png */; };
+		EC4CFAC21FC6F380009710D9 /* HMSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4CFAC01FC6F37F009710D9 /* HMSegmentedControl.swift */; };
+		EC4CFAC31FC6F380009710D9 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC4CFAC11FC6F37F009710D9 /* Info.plist */; };
+		ECEB9C2C1FC69C5200E12500 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEB9C2B1FC69C5200E12500 /* ProductCell.swift */; };
+		ECEB9C311FC6AC6000E12500 /* check.png in Resources */ = {isa = PBXBuildFile; fileRef = ECEB9C2F1FC6AC6000E12500 /* check.png */; };
+		ECEB9C321FC6AC6000E12500 /* uncheck.png in Resources */ = {isa = PBXBuildFile; fileRef = ECEB9C301FC6AC6000E12500 /* uncheck.png */; };
+		ECEB9C341FC6AD8500E12500 /* ProductPayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEB9C331FC6AD8500E12500 /* ProductPayCell.swift */; };
+		ECEB9C361FC6C86F00E12500 /* PaymentOptionsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEB9C351FC6C86E00E12500 /* PaymentOptionsCell.swift */; };
+		ECEB9C381FC6CD5600E12500 /* left-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = ECEB9C371FC6CD5500E12500 /* left-arrow.png */; };
+		ECEB9C3A1FC6D37100E12500 /* right-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = ECEB9C391FC6D37000E12500 /* right-arrow.png */; };
+		ECECCA5B1FCBF9F100E1A086 /* mastercard.png in Resources */ = {isa = PBXBuildFile; fileRef = ECECCA5A1FCBF9F100E1A086 /* mastercard.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +74,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		20860B90B7F5E125F5CEDFF6 /* Pods_PaymentDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PaymentDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AFB1E005C134D9F101EE3F2 /* Pods-PaymentDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaymentDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PaymentDemoUITests/Pods-PaymentDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4C9891C932FCC2C45482356E /* Pods-PaymentDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaymentDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PaymentDemoTests/Pods-PaymentDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		5F32D0149858A23F06DFE7B1 /* Pods_PaymentDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PaymentDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7650D5B3EC0561D40DB941C4 /* Pods-PaymentDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaymentDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PaymentDemoTests/Pods-PaymentDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9A1F5EB10B5237DD5551BFA4 /* Pods-PaymentDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaymentDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PaymentDemoUITests/Pods-PaymentDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9D16103F60DB673070B868AD /* Pods-PaymentDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaymentDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PaymentDemo/Pods-PaymentDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		A2DE9096B9BB49B6E67CC456 /* libPods-PaymentDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PaymentDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A43E455CB4156B95D130A254 /* Pods-PaymentDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaymentDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-PaymentDemo/Pods-PaymentDemo.release.xcconfig"; sourceTree = "<group>"; };
+		EC1F66611FCA7D830076BD44 /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple.png; sourceTree = "<group>"; };
+		EC1F66621FCA7D840076BD44 /* visa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = visa.png; sourceTree = "<group>"; };
+		EC1F66631FCA7D850076BD44 /* chase.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chase.png; sourceTree = "<group>"; };
+		EC1F66641FCA7D850076BD44 /* paypal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paypal.png; sourceTree = "<group>"; };
+		EC1F66691FCA7FB80076BD44 /* Settings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Settings.plist; sourceTree = "<group>"; };
+		EC1F666C1FCB36FF0076BD44 /* PayPalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayPalVC.swift; sourceTree = "<group>"; };
+		EC1F666E1FCB37120076BD44 /* PayPalSB.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PayPalSB.storyboard; sourceTree = "<group>"; };
+		EC1F66701FCB38B50076BD44 /* Payy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Payy.png; sourceTree = "<group>"; };
+		EC1F66741FCB40830076BD44 /* VisaCheckOutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisaCheckOutVC.swift; sourceTree = "<group>"; };
+		EC1F66751FCB40830076BD44 /* VisaCheckOutVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VisaCheckOutVC.xib; sourceTree = "<group>"; };
 		EC383EAC1FC685190074F5E6 /* PaymentDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaymentDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC383EAF1FC685190074F5E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC383EB11FC685190074F5E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +107,33 @@
 		EC383ECE1FC685190074F5E6 /* PaymentDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaymentDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC383ED21FC685190074F5E6 /* PaymentDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentDemoUITests.swift; sourceTree = "<group>"; };
 		EC383ED41FC685190074F5E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC383EE41FC685B90074F5E6 /* ProductVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductVC.swift; sourceTree = "<group>"; };
+		EC383EE61FC685C50074F5E6 /* ProductSB.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProductSB.storyboard; sourceTree = "<group>"; };
+		EC383EE81FC685E30074F5E6 /* PaymentOptionsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentOptionsVC.swift; sourceTree = "<group>"; };
+		EC383EEA1FC685EE0074F5E6 /* PaymentOptionsSB.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PaymentOptionsSB.storyboard; sourceTree = "<group>"; };
+		EC383EEC1FC686010074F5E6 /* AddCardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCardVC.swift; sourceTree = "<group>"; };
+		EC383EEE1FC6860D0074F5E6 /* AddCardSB.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AddCardSB.storyboard; sourceTree = "<group>"; };
+		EC383EF11FC686EE0074F5E6 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		EC4CFAA31FC6DDB3009710D9 /* TabySegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabySegmentedControl.swift; sourceTree = "<group>"; };
+		EC4CFAA81FC6DE4A009710D9 /* CreditCardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardVC.swift; sourceTree = "<group>"; };
+		EC4CFAAA1FC6DE5B009710D9 /* GiftCardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftCardVC.swift; sourceTree = "<group>"; };
+		EC4CFAAC1FC6DE69009710D9 /* RewardCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardCard.swift; sourceTree = "<group>"; };
+		EC4CFAAE1FC6DE7B009710D9 /* CreditCardSB.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CreditCardSB.storyboard; sourceTree = "<group>"; };
+		EC4CFAB01FC6DE8D009710D9 /* GifCardSB.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GifCardSB.storyboard; sourceTree = "<group>"; };
+		EC4CFAB21FC6DE9B009710D9 /* RewardCardSB.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RewardCardSB.storyboard; sourceTree = "<group>"; };
+		EC4CFAB41FC6EAB7009710D9 /* segmented_separator_bg.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = segmented_separator_bg.pdf; sourceTree = "<group>"; };
+		EC4CFAB61FC6EABF009710D9 /* substract.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = substract.png; sourceTree = "<group>"; };
+		EC4CFABF1FC6F37F009710D9 /* HMSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMSegmentedControl.h; sourceTree = "<group>"; };
+		EC4CFAC01FC6F37F009710D9 /* HMSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSegmentedControl.swift; sourceTree = "<group>"; };
+		EC4CFAC11FC6F37F009710D9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECEB9C2B1FC69C5200E12500 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		ECEB9C2F1FC6AC6000E12500 /* check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check.png; sourceTree = "<group>"; };
+		ECEB9C301FC6AC6000E12500 /* uncheck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uncheck.png; sourceTree = "<group>"; };
+		ECEB9C331FC6AD8500E12500 /* ProductPayCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductPayCell.swift; sourceTree = "<group>"; };
+		ECEB9C351FC6C86E00E12500 /* PaymentOptionsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentOptionsCell.swift; sourceTree = "<group>"; };
+		ECEB9C371FC6CD5500E12500 /* left-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "left-arrow.png"; sourceTree = "<group>"; };
+		ECEB9C391FC6D37000E12500 /* right-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "right-arrow.png"; sourceTree = "<group>"; };
+		ECECCA5A1FCBF9F100E1A086 /* mastercard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mastercard.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +141,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95AEDB204C9E3E1CA64A5F57 /* Pods_PaymentDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +149,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E884EDD7A206E0842BDAB61F /* Pods_PaymentDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +157,54 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBF7A0FBE81697E463A17798 /* libPods-PaymentDemoUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A9A5CB138D34634A421FF763 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D16103F60DB673070B868AD /* Pods-PaymentDemo.debug.xcconfig */,
+				A43E455CB4156B95D130A254 /* Pods-PaymentDemo.release.xcconfig */,
+				7650D5B3EC0561D40DB941C4 /* Pods-PaymentDemoTests.debug.xcconfig */,
+				4C9891C932FCC2C45482356E /* Pods-PaymentDemoTests.release.xcconfig */,
+				3AFB1E005C134D9F101EE3F2 /* Pods-PaymentDemoUITests.debug.xcconfig */,
+				9A1F5EB10B5237DD5551BFA4 /* Pods-PaymentDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AD9F26D83BCDE88262258452 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20860B90B7F5E125F5CEDFF6 /* Pods_PaymentDemo.framework */,
+				A2DE9096B9BB49B6E67CC456 /* libPods-PaymentDemoUITests.a */,
+				5F32D0149858A23F06DFE7B1 /* Pods_PaymentDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC1F666B1FCB36DF0076BD44 /* PaypalVC */ = {
+			isa = PBXGroup;
+			children = (
+				EC1F666C1FCB36FF0076BD44 /* PayPalVC.swift */,
+				EC1F666E1FCB37120076BD44 /* PayPalSB.storyboard */,
+			);
+			path = PaypalVC;
+			sourceTree = "<group>";
+		};
+		EC1F66731FCB40600076BD44 /* VisaCheckout */ = {
+			isa = PBXGroup;
+			children = (
+				EC1F66741FCB40830076BD44 /* VisaCheckOutVC.swift */,
+				EC1F66751FCB40830076BD44 /* VisaCheckOutVC.xib */,
+			);
+			path = VisaCheckout;
+			sourceTree = "<group>";
+		};
 		EC383EA31FC685190074F5E6 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +212,8 @@
 				EC383EC61FC685190074F5E6 /* PaymentDemoTests */,
 				EC383ED11FC685190074F5E6 /* PaymentDemoUITests */,
 				EC383EAD1FC685190074F5E6 /* Products */,
+				A9A5CB138D34634A421FF763 /* Pods */,
+				AD9F26D83BCDE88262258452 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +230,10 @@
 		EC383EAE1FC685190074F5E6 /* PaymentDemo */ = {
 			isa = PBXGroup;
 			children = (
+				EC1F66691FCA7FB80076BD44 /* Settings.plist */,
+				ECEB9C2D1FC6AC6000E12500 /* Resources */,
+				EC383EF01FC686DF0074F5E6 /* Main */,
+				EC383EE01FC6859A0074F5E6 /* Classes */,
 				EC383EAF1FC685190074F5E6 /* AppDelegate.swift */,
 				EC383EB11FC685190074F5E6 /* ViewController.swift */,
 				EC383EB31FC685190074F5E6 /* Main.storyboard */,
@@ -128,6 +263,133 @@
 			path = PaymentDemoUITests;
 			sourceTree = "<group>";
 		};
+		EC383EE01FC6859A0074F5E6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EC383EE11FC6859A0074F5E6 /* AddCardVC */,
+				EC383EE21FC6859A0074F5E6 /* PaymentOptionsVC */,
+				EC383EE31FC6859A0074F5E6 /* ProductVC */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		EC383EE11FC6859A0074F5E6 /* AddCardVC */ = {
+			isa = PBXGroup;
+			children = (
+				EC4CFAA61FC6DE3E009710D9 /* CreditCard */,
+				EC4CFAA51FC6DE3E009710D9 /* GiftCard */,
+				EC4CFAA71FC6DE3E009710D9 /* RewardCard */,
+				EC383EEC1FC686010074F5E6 /* AddCardVC.swift */,
+				EC383EEE1FC6860D0074F5E6 /* AddCardSB.storyboard */,
+			);
+			path = AddCardVC;
+			sourceTree = "<group>";
+		};
+		EC383EE21FC6859A0074F5E6 /* PaymentOptionsVC */ = {
+			isa = PBXGroup;
+			children = (
+				EC1F66731FCB40600076BD44 /* VisaCheckout */,
+				EC1F666B1FCB36DF0076BD44 /* PaypalVC */,
+				EC383EE81FC685E30074F5E6 /* PaymentOptionsVC.swift */,
+				ECEB9C351FC6C86E00E12500 /* PaymentOptionsCell.swift */,
+				EC383EEA1FC685EE0074F5E6 /* PaymentOptionsSB.storyboard */,
+			);
+			path = PaymentOptionsVC;
+			sourceTree = "<group>";
+		};
+		EC383EE31FC6859A0074F5E6 /* ProductVC */ = {
+			isa = PBXGroup;
+			children = (
+				EC383EE41FC685B90074F5E6 /* ProductVC.swift */,
+				EC383EE61FC685C50074F5E6 /* ProductSB.storyboard */,
+				ECEB9C2B1FC69C5200E12500 /* ProductCell.swift */,
+				ECEB9C331FC6AD8500E12500 /* ProductPayCell.swift */,
+			);
+			path = ProductVC;
+			sourceTree = "<group>";
+		};
+		EC383EF01FC686DF0074F5E6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				EC383EF11FC686EE0074F5E6 /* Constant.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		EC4CFAA21FC6DDB3009710D9 /* OtherClass */ = {
+			isa = PBXGroup;
+			children = (
+				EC4CFAA31FC6DDB3009710D9 /* TabySegmentedControl.swift */,
+			);
+			path = OtherClass;
+			sourceTree = "<group>";
+		};
+		EC4CFAA51FC6DE3E009710D9 /* GiftCard */ = {
+			isa = PBXGroup;
+			children = (
+				EC4CFAAA1FC6DE5B009710D9 /* GiftCardVC.swift */,
+				EC4CFAB01FC6DE8D009710D9 /* GifCardSB.storyboard */,
+			);
+			path = GiftCard;
+			sourceTree = "<group>";
+		};
+		EC4CFAA61FC6DE3E009710D9 /* CreditCard */ = {
+			isa = PBXGroup;
+			children = (
+				EC4CFAA81FC6DE4A009710D9 /* CreditCardVC.swift */,
+				EC4CFAAE1FC6DE7B009710D9 /* CreditCardSB.storyboard */,
+			);
+			path = CreditCard;
+			sourceTree = "<group>";
+		};
+		EC4CFAA71FC6DE3E009710D9 /* RewardCard */ = {
+			isa = PBXGroup;
+			children = (
+				EC4CFAAC1FC6DE69009710D9 /* RewardCard.swift */,
+				EC4CFAB21FC6DE9B009710D9 /* RewardCardSB.storyboard */,
+			);
+			path = RewardCard;
+			sourceTree = "<group>";
+		};
+		EC4CFABE1FC6F37F009710D9 /* HMSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				EC4CFABF1FC6F37F009710D9 /* HMSegmentedControl.h */,
+				EC4CFAC01FC6F37F009710D9 /* HMSegmentedControl.swift */,
+				EC4CFAC11FC6F37F009710D9 /* Info.plist */,
+			);
+			path = HMSegmentedControl;
+			sourceTree = "<group>";
+		};
+		ECEB9C2D1FC6AC6000E12500 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EC4CFABE1FC6F37F009710D9 /* HMSegmentedControl */,
+				EC4CFAA21FC6DDB3009710D9 /* OtherClass */,
+				ECEB9C2E1FC6AC6000E12500 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		ECEB9C2E1FC6AC6000E12500 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				ECECCA5A1FCBF9F100E1A086 /* mastercard.png */,
+				EC1F66701FCB38B50076BD44 /* Payy.png */,
+				EC1F66611FCA7D830076BD44 /* apple.png */,
+				EC1F66631FCA7D850076BD44 /* chase.png */,
+				EC1F66641FCA7D850076BD44 /* paypal.png */,
+				EC1F66621FCA7D840076BD44 /* visa.png */,
+				EC4CFAB61FC6EABF009710D9 /* substract.png */,
+				EC4CFAB41FC6EAB7009710D9 /* segmented_separator_bg.pdf */,
+				ECEB9C391FC6D37000E12500 /* right-arrow.png */,
+				ECEB9C371FC6CD5500E12500 /* left-arrow.png */,
+				ECEB9C2F1FC6AC6000E12500 /* check.png */,
+				ECEB9C301FC6AC6000E12500 /* uncheck.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +397,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC383ED71FC685190074F5E6 /* Build configuration list for PBXNativeTarget "PaymentDemo" */;
 			buildPhases = (
+				F1393CEC585C84AB32C9656B /* [CP] Check Pods Manifest.lock */,
 				EC383EA81FC685190074F5E6 /* Sources */,
 				EC383EA91FC685190074F5E6 /* Frameworks */,
 				EC383EAA1FC685190074F5E6 /* Resources */,
+				5F4EA4A1948E3343C46A765C /* [CP] Embed Pods Frameworks */,
+				821CCC86C9C2E5756047AC78 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +417,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC383EDA1FC685190074F5E6 /* Build configuration list for PBXNativeTarget "PaymentDemoTests" */;
 			buildPhases = (
+				296759B78B3DD8A469576768 /* [CP] Check Pods Manifest.lock */,
 				EC383EBF1FC685190074F5E6 /* Sources */,
 				EC383EC01FC685190074F5E6 /* Frameworks */,
 				EC383EC11FC685190074F5E6 /* Resources */,
+				8C2014F788D21D4EEE4DFD6F /* [CP] Embed Pods Frameworks */,
+				458BB82CBD0F21A9806D5D0A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +438,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC383EDD1FC685190074F5E6 /* Build configuration list for PBXNativeTarget "PaymentDemoUITests" */;
 			buildPhases = (
+				974E6EAA60FB49EC8C66F2ED /* [CP] Check Pods Manifest.lock */,
 				EC383ECA1FC685190074F5E6 /* Sources */,
 				EC383ECB1FC685190074F5E6 /* Frameworks */,
 				EC383ECC1FC685190074F5E6 /* Resources */,
+				7828CB8136EA8CDA9775ACA7 /* [CP] Embed Pods Frameworks */,
+				E2FE1BA65995872E8A3912E5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,9 +506,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC4CFAC31FC6F380009710D9 /* Info.plist in Resources */,
+				EC4CFAB11FC6DE8D009710D9 /* GifCardSB.storyboard in Resources */,
+				EC1F66661FCA7D860076BD44 /* visa.png in Resources */,
+				ECEB9C3A1FC6D37100E12500 /* right-arrow.png in Resources */,
+				EC1F66681FCA7D860076BD44 /* paypal.png in Resources */,
+				EC1F66771FCB40830076BD44 /* VisaCheckOutVC.xib in Resources */,
+				EC4CFAB51FC6EAB7009710D9 /* segmented_separator_bg.pdf in Resources */,
+				EC1F666F1FCB37120076BD44 /* PayPalSB.storyboard in Resources */,
 				EC383EBD1FC685190074F5E6 /* LaunchScreen.storyboard in Resources */,
+				EC383EEF1FC6860D0074F5E6 /* AddCardSB.storyboard in Resources */,
+				EC1F66651FCA7D860076BD44 /* apple.png in Resources */,
+				EC1F66711FCB38B60076BD44 /* Payy.png in Resources */,
+				ECEB9C311FC6AC6000E12500 /* check.png in Resources */,
+				EC4CFAB71FC6EABF009710D9 /* substract.png in Resources */,
+				EC1F666A1FCA7FB90076BD44 /* Settings.plist in Resources */,
+				EC1F66671FCA7D860076BD44 /* chase.png in Resources */,
+				EC383EE71FC685C50074F5E6 /* ProductSB.storyboard in Resources */,
+				ECECCA5B1FCBF9F100E1A086 /* mastercard.png in Resources */,
 				EC383EBA1FC685190074F5E6 /* Assets.xcassets in Resources */,
+				ECEB9C381FC6CD5600E12500 /* left-arrow.png in Resources */,
+				EC4CFAB31FC6DE9B009710D9 /* RewardCardSB.storyboard in Resources */,
+				EC383EEB1FC685EE0074F5E6 /* PaymentOptionsSB.storyboard in Resources */,
+				EC4CFAAF1FC6DE7B009710D9 /* CreditCardSB.storyboard in Resources */,
 				EC383EB51FC685190074F5E6 /* Main.storyboard in Resources */,
+				ECEB9C321FC6AC6000E12500 /* uncheck.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,14 +550,192 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		296759B78B3DD8A469576768 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PaymentDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		458BB82CBD0F21A9806D5D0A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PaymentDemoTests/Pods-PaymentDemoTests-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PaymentDemoTests/Pods-PaymentDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F4EA4A1948E3343C46A765C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PaymentDemo/Pods-PaymentDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/HMSegmentedControl/HMSegmentedControl.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/PopupDialog/PopupDialog.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HMSegmentedControl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PopupDialog.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PaymentDemo/Pods-PaymentDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7828CB8136EA8CDA9775ACA7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PaymentDemoUITests/Pods-PaymentDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		821CCC86C9C2E5756047AC78 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PaymentDemo/Pods-PaymentDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C2014F788D21D4EEE4DFD6F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PaymentDemoTests/Pods-PaymentDemoTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/HMSegmentedControl/HMSegmentedControl.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/PopupDialog/PopupDialog.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HMSegmentedControl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PopupDialog.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PaymentDemoTests/Pods-PaymentDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		974E6EAA60FB49EC8C66F2ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PaymentDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2FE1BA65995872E8A3912E5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PaymentDemoUITests/Pods-PaymentDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1393CEC585C84AB32C9656B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PaymentDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EC383EA81FC685190074F5E6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC383EF21FC686EF0074F5E6 /* Constant.swift in Sources */,
+				EC383EED1FC686010074F5E6 /* AddCardVC.swift in Sources */,
+				EC383EE91FC685E30074F5E6 /* PaymentOptionsVC.swift in Sources */,
+				EC383EE51FC685B90074F5E6 /* ProductVC.swift in Sources */,
 				EC383EB21FC685190074F5E6 /* ViewController.swift in Sources */,
+				EC4CFAC21FC6F380009710D9 /* HMSegmentedControl.swift in Sources */,
+				EC1F66761FCB40830076BD44 /* VisaCheckOutVC.swift in Sources */,
+				ECEB9C2C1FC69C5200E12500 /* ProductCell.swift in Sources */,
 				EC383EB01FC685190074F5E6 /* AppDelegate.swift in Sources */,
+				ECEB9C361FC6C86F00E12500 /* PaymentOptionsCell.swift in Sources */,
+				EC1F666D1FCB36FF0076BD44 /* PayPalVC.swift in Sources */,
+				EC4CFAAB1FC6DE5B009710D9 /* GiftCardVC.swift in Sources */,
+				EC4CFAA41FC6DDB4009710D9 /* TabySegmentedControl.swift in Sources */,
+				ECEB9C341FC6AD8500E12500 /* ProductPayCell.swift in Sources */,
 				EC383EB81FC685190074F5E6 /* PaymentDemo.xcdatamodeld in Sources */,
+				EC4CFAAD1FC6DE69009710D9 /* RewardCard.swift in Sources */,
+				EC4CFAA91FC6DE4A009710D9 /* CreditCardVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +899,7 @@
 		};
 		EC383ED81FC685190074F5E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D16103F60DB673070B868AD /* Pods-PaymentDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -442,6 +914,7 @@
 		};
 		EC383ED91FC685190074F5E6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A43E455CB4156B95D130A254 /* Pods-PaymentDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -456,6 +929,7 @@
 		};
 		EC383EDB1FC685190074F5E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7650D5B3EC0561D40DB941C4 /* Pods-PaymentDemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -472,6 +946,7 @@
 		};
 		EC383EDC1FC685190074F5E6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C9891C932FCC2C45482356E /* Pods-PaymentDemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +963,7 @@
 		};
 		EC383EDE1FC685190074F5E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AFB1E005C134D9F101EE3F2 /* Pods-PaymentDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -503,6 +979,7 @@
 		};
 		EC383EDF1FC685190074F5E6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A1F5EB10B5237DD5551BFA4 /* Pods-PaymentDemoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

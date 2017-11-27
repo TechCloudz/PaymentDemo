@@ -20,6 +20,11 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func onClickBtn_viewDemo(){
+       
+        let objVC = objProductSB.instantiateViewController(withIdentifier: "ProductVC") as! ProductVC
+        self.navigationController?.pushViewController(objVC, animated: true)
+    }
 
 }
 

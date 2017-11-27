@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Reward Card-->
+        <scene sceneID="tKq-Mn-xvd">
+            <objects>
+                <viewController restorationIdentifier="RewardCard" storyboardIdentifier="RewardCard" id="TBZ-K6-wRP" customClass="RewardCard" customModule="PaymentDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="r4n-7G-CEB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8KV-u1-9PA">
+                                <rect key="frame" x="15" y="200" width="345" height="40"/>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="ENE-Bt-MqD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                                <state key="normal" title="Check Balance">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="onClickBtn_AddCard:" destination="TBZ-K6-wRP" eventType="touchUpInside" id="Iji-fE-RHE"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xwz-9m-i1A">
+                                <rect key="frame" x="0.0" y="50" width="375" height="70"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Card number" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n3e-tQ-Nq7">
+                                        <rect key="frame" x="15" y="9" width="107" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="1mk-c4-qpU"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lNE-Vb-VEi">
+                                        <rect key="frame" x="15" y="35" width="345" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="o2j-Ac-Kg7"/>
+                                        </constraints>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                    </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QUF-aa-yzv">
+                                        <rect key="frame" x="15" y="68" width="345" height="2"/>
+                                        <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="2" id="l0C-rT-Vth"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="0Uj-Y2-AwV"/>
+                                    <constraint firstItem="QUF-aa-yzv" firstAttribute="trailing" secondItem="lNE-Vb-VEi" secondAttribute="trailing" id="33l-Nt-gBF"/>
+                                    <constraint firstItem="QUF-aa-yzv" firstAttribute="leading" secondItem="xwz-9m-i1A" secondAttribute="leading" constant="15" id="Win-q8-kRe"/>
+                                    <constraint firstItem="QUF-aa-yzv" firstAttribute="leading" secondItem="lNE-Vb-VEi" secondAttribute="leading" id="Wm6-LI-AwR"/>
+                                    <constraint firstItem="QUF-aa-yzv" firstAttribute="leading" secondItem="n3e-tQ-Nq7" secondAttribute="leading" id="cOj-SW-PaF"/>
+                                    <constraint firstItem="QUF-aa-yzv" firstAttribute="centerX" secondItem="xwz-9m-i1A" secondAttribute="centerX" id="dgt-OV-DFj"/>
+                                    <constraint firstAttribute="bottom" secondItem="QUF-aa-yzv" secondAttribute="bottom" id="dxP-GD-sOW"/>
+                                    <constraint firstItem="lNE-Vb-VEi" firstAttribute="top" secondItem="n3e-tQ-Nq7" secondAttribute="bottom" constant="5" id="mpQ-TD-o36"/>
+                                    <constraint firstItem="QUF-aa-yzv" firstAttribute="top" secondItem="lNE-Vb-VEi" secondAttribute="bottom" constant="3" id="ty1-RU-MXO"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rzq-eX-Yx8">
+                                <rect key="frame" x="16" y="153" width="24" height="24"/>
+                                <state key="normal" image="uncheck.png"/>
+                                <connections>
+                                    <action selector="onClickBtn_Check:" destination="TBZ-K6-wRP" eventType="touchUpInside" id="cK8-3J-TFJ"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Keep card on file" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PU2-fR-kPE">
+                                <rect key="frame" x="56" y="155" width="189" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="189" id="Kd1-sT-9WM"/>
+                                    <constraint firstAttribute="height" constant="21" id="f4R-6K-hlp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="xwz-9m-i1A" firstAttribute="leading" secondItem="VXf-di-470" secondAttribute="leading" id="7hU-4q-Fu6"/>
+                            <constraint firstItem="8KV-u1-9PA" firstAttribute="top" secondItem="rzq-eX-Yx8" secondAttribute="bottom" constant="23" id="7yi-Xt-hEA"/>
+                            <constraint firstItem="VXf-di-470" firstAttribute="trailing" secondItem="8KV-u1-9PA" secondAttribute="trailing" constant="15" id="BSI-o2-mfR"/>
+                            <constraint firstItem="PU2-fR-kPE" firstAttribute="centerY" secondItem="rzq-eX-Yx8" secondAttribute="centerY" id="ENE-by-HS3"/>
+                            <constraint firstItem="8KV-u1-9PA" firstAttribute="top" secondItem="xwz-9m-i1A" secondAttribute="bottom" constant="80" id="HxY-SE-j79"/>
+                            <constraint firstItem="rzq-eX-Yx8" firstAttribute="leading" secondItem="r4n-7G-CEB" secondAttribute="leadingMargin" id="chb-Yx-r6E"/>
+                            <constraint firstItem="8KV-u1-9PA" firstAttribute="leading" secondItem="VXf-di-470" secondAttribute="leading" constant="15" id="eDw-dR-Kxa"/>
+                            <constraint firstItem="PU2-fR-kPE" firstAttribute="leading" secondItem="rzq-eX-Yx8" secondAttribute="trailing" constant="16" id="gyf-9v-KX3"/>
+                            <constraint firstItem="xwz-9m-i1A" firstAttribute="trailing" secondItem="VXf-di-470" secondAttribute="trailing" id="jdE-tn-hZc"/>
+                            <constraint firstItem="xwz-9m-i1A" firstAttribute="top" secondItem="VXf-di-470" secondAttribute="top" constant="30" id="l3u-3e-uNS"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="VXf-di-470"/>
+                    </view>
+                    <connections>
+                        <outlet property="btnCheck" destination="rzq-eX-Yx8" id="Rlu-oH-5qZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lNa-aa-843" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="151" y="-176"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="uncheck.png" width="24" height="24"/>
+    </resources>
+</document>

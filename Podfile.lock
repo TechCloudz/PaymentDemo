@@ -1,0 +1,18 @@
+PODS:
+  - HMSegmentedControl (1.5.3)
+  - IQKeyboardManager (4.0.9)
+  - PopupDialog (0.5.4)
+
+DEPENDENCIES:
+  - HMSegmentedControl
+  - IQKeyboardManager
+  - PopupDialog
+
+SPEC CHECKSUMS:
+  HMSegmentedControl: 7c6145afb50f26cec5f3243082f6f12b9f41318f
+  IQKeyboardManager: 322c7405df3eb5f7e50dede32ea937bf3d4364e0
+  PopupDialog: 75cf955693590b0cb2fdde00223fb65d99c57247
+
+PODFILE CHECKSUM: 5b1bcbbffda16f05f921c8863528cc708cb58697
+
+COCOAPODS: 1.3.1
